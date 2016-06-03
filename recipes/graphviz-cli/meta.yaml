@@ -26,7 +26,7 @@ build:
 requirements:
   build:
     - cairo  # [linux]
-    - expat  # [linux]
+    - expat  # [unix]
     - libpng  1.6*  # [unix]
     - libtiff  4.0.*  # [unix]
     - libtool  # [linux]
@@ -37,7 +37,7 @@ requirements:
     - zlib  1.2.*  # [unix]
   run:
     - cairo  # [linux]
-    - expat  # [linux]
+    - expat  # [unix]
     - libpng  1.6*  # [unix]
     - libtiff  4.0.*  # [unix]
     - libtool  # [linux]
